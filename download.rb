@@ -18,8 +18,9 @@ print "See README.md if you need any instructions \n"
 
 RSpotify.authenticate(clientId, clientSecret)
 
-print "Please input the playlist URL: "
-url = gets.chomp
+
+
+url = ARGV[0].to_s
 userpos = url.index("user/") + 5
 
 playlistpos = url.index("playlist/") + 9
