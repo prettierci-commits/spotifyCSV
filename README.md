@@ -36,4 +36,20 @@ Running
 $ ruby download.rb https://open.spotify.com/user/shreymann/playlist/3DnbNhyJfevKS3fMbXJzNt
 ```
 
-outputs [this csv file](link)
+Outputs [this csv file](https://github.com/shreyas-n/spotifyCSV/blob/master/chill.csv)
+
+### Instructions
+
+#### Getting a playlist link
+![get playlist](https://i.gyazo.com/c79358b7ee0e83c195f017621b81af2e.gif)
+
+#### Getting your client ID and Secret
+
+Navigate to `https://developer.spotify.com/my-applications`
+
+![get secret](https://i.gyazo.com/d82b8b30ffa314777d3f5340d37630f6.gif)
+
+### Notes / Issues
+
+* This will only take the first 100 songs of a playlist
+* Not every track will have a preview link
