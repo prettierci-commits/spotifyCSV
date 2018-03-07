@@ -2,7 +2,6 @@
 
 ### Print Spotify playlists to a CSV format
 
-
 ##### You will need:
 
 * ###### The Ruby programming language installed
@@ -18,8 +17,8 @@ $ git clone https://github.com/shreyas-n/spotifyCSV.git
 
 ###### or [Download the .zip](https://github.com/shreyas-n/spotifyCSV/archive/master.zip)
 
-
 ###### in your terminal `cd` into the folder
+
 ###### run `bundle` to install the required gems
 
 ##### Finally to use the application run
@@ -41,6 +40,7 @@ Outputs [this csv file](https://github.com/shreyas-n/spotifyCSV/blob/master/chil
 ### Instructions
 
 #### Getting a playlist link
+
 ![get playlist](https://i.gyazo.com/c79358b7ee0e83c195f017621b81af2e.gif)
 
 #### Getting your client ID and Secret
